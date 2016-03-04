@@ -1,0 +1,108 @@
+{
+  "error": {
+    "status_code": 0,
+    "error_message": ""
+  },
+  "data": [
+    {
+      "user_name": "Rajvardhan Yadav",
+      "user_desig": "Executive MBA - 1st Year",
+      "user_dp_url": "assets://dp_raj.jpg",
+      "blog_title": "Test Blog",
+      "blog_desc": "This is my first test blog. We are doing UAT of this app so don't focus on this content.",
+      "blog_post_date": "20 Feb'16",
+      "blog_views": 15,
+      "image_urls": [
+        {
+          "url": "assets://blog_1.jpg"
+        },
+        {
+          "url": "assets://blog_1.jpg"
+        },
+        {
+          "url": "assets://blog_1.jpg"
+        }
+      ]
+    },
+    {
+      "user_name": "Prashant Badadhe",
+      "user_desig": "Executive MBA - 1st Year",
+      "user_dp_url": "assets://dp_pras.jpg",
+      "blog_title": "Test Blog",
+      "blog_desc": "This is my first test blog. We are doing UAT of this app so don't focus on this content.",
+      "blog_post_date": "20 Feb'16",
+      "blog_views": 15,
+      "image_urls": [
+        {
+          "url": "assets://blog_2.jpg"
+        },
+        {
+          "url": "assets://blog_2.jpg"
+        },
+        {
+          "url": "assets://blog_2.jpg"
+        }
+      ]
+    },
+    {
+      "user_name": "Madhav Gawade",
+      "user_desig": "Executive MBA - 1st Year",
+      "user_dp_url": "assets://dp_mad.jpg",
+      "blog_title": "Test Blog",
+      "blog_desc": "This is my first test blog. We are doing UAT of this app so don't focus on this content.",
+      "blog_post_date": "20 Feb'16",
+      "blog_views": 15,
+      "image_urls": [
+        {
+          "url": "assets://blog_3.jpg"
+        },
+        {
+          "url": "assets://blog_3.jpg"
+        },
+        {
+          "url": "assets://blog_3.jpg"
+        }
+      ]
+    },
+    {
+      "user_name": "Swapnil More",
+      "user_desig": "Executive MBA - 1st Year",
+      "user_dp_url": "assets://dp_swap.jpg",
+      "blog_title": "Test Blog",
+      "blog_desc": "This is my first test blog. We are doing UAT of this app so don't focus on this content.",
+      "blog_post_date": "20 Feb'16",
+      "blog_views": 15,
+      "image_urls": [
+        {
+          "url": "assets://blog_4.jpg"
+        },
+        {
+          "url": "assets://blog_4.jpg"
+        },
+        {
+          "url": "assets://blog_4.jpg"
+        }
+      ]
+    },
+    {
+      "user_name": "Nikhil Nikam",
+      "user_desig": "Executive MBA - 1st Year",
+      "user_dp_url": "assets://dp_nik.jpg",
+      "blog_title": "Test Blog",
+      "blog_desc": "This is my first test blog. We are doing UAT of this app so don't focus on this content.",
+      "blog_post_date": "20 Feb'16",
+      "blog_views": 15,
+      "image_urls": [
+        {
+          "url": "assets://blog_5.png"
+        },
+        {
+          "url": "assets://blog_5.png"
+        },
+        {
+          "url": "assets://blog_5.png"
+        }
+      ]
+    }
+  ]
+}

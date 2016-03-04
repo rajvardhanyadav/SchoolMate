@@ -1,0 +1,63 @@
+{
+  "error": {
+    "status_code": 0,
+    "error_message": ""
+  },
+  "data": [
+    {
+      "user_name": "Rajvardhan Yadav",
+      "user_desig": "Executive MBA - 1st Year",
+      "user_dp_url": "assets://dp_raj.jpg",
+      "task_title": "Test Blog",
+      "task_desc": "This is my first test blog. We are doing UAT of this app so don't focus on this content.",
+      "task_submission_date": "20 Feb'16",
+      "task_post_date": "15 Feb'16",
+      "task_marks": 15,
+      "task_subject": "HR"
+    },
+    {
+      "user_name": "Prashant Badadhe",
+      "user_desig": "Executive MBA - 1st Year",
+      "user_dp_url": "assets://dp_pras.jpg",
+      "task_title": "Test Blog",
+      "task_desc": "This is my first test blog. We are doing UAT of this app so don't focus on this content.",
+      "task_submission_date": "20 Feb'16",
+      "task_post_date": "15 Feb'16",
+      "task_marks": 15,
+      "task_subject": "HR"
+    },
+    {
+      "user_name": "Madhav Gawade",
+      "user_desig": "Executive MBA - 1st Year",
+      "user_dp_url": "assets://dp_mad.jpg",
+      "task_title": "Test Blog",
+      "task_desc": "This is my first test blog. We are doing UAT of this app so don't focus on this content.",
+      "task_submission_date": "20 Feb'16",
+      "task_post_date": "15 Feb'16",
+      "task_marks": 15,
+      "task_subject": "HR"
+    },
+    {
+      "user_name": "Swapnil More",
+      "user_desig": "Executive MBA - 1st Year",
+      "user_dp_url": "assets://dp_swap.jpg",
+      "task_title": "Test Blog",
+      "task_desc": "This is my first test blog. We are doing UAT of this app so don't focus on this content.",
+      "task_submission_date": "20 Feb'16",
+      "task_post_date": "15 Feb'16",
+      "task_marks": 15,
+      "task_subject": "HR"
+    },
+    {
+      "user_name": "Nikhil Nikam",
+      "user_desig": "Executive MBA - 1st Year",
+      "user_dp_url": "assets://dp_nik.jpg",
+      "task_title": "Test Blog",
+      "task_desc": "This is my first test blog. We are doing UAT of this app so don't focus on this content.",
+      "task_submission_date": "20 Feb'16",
+      "task_post_date": "15 Feb'16",
+      "task_marks": 15,
+      "task_subject": "HR"
+    }
+  ]
+}

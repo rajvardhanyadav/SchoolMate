@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">SchoolMate</string>
+    <string name="copyrights_info">SchoolMate Inc.</string>
+    <string name="act_label_blog_details">Blog</string>
+    <string name="act_label_task_details">Task</string>
+    <string name="act_label_blog_create">Publish blog</string>
+    <string name="act_label_task_create">New task</string>
+    <string name="act_label_filter_result">Filter result</string>
+    <string name="act_label_feedback">Feedback</string>
+    <string name="act_label_fav">Favourites</string>
+    <string name="act_label_about">About</string>
+
+    <!-- Menu -->
+    <!-- menu_main -->
+    <string name="menu_main_item_search">Search</string>
+    <string name="menu_main_item_notif">Notification</string>
+    <string name="menu_main_item_favourites">Favourites</string>
+    <string name="menu_main_item_setting">Setting</string>
+    <string name="menu_main_item_feedback">Feedback</string>
+    <string name="menu_main_item_about">About</string>
+
+    <!-- Menu feedback -->
+    <string name="menu_feedback_item_send">Send</string>
+
+    <!-- Menu blog create -->
+    <string name="menu_blog_publish">Publish</string>
+    <string name="menu_blog_attach">Attach</string>
+
+    <!-- Activity -->
+    <!-- Splash Activity -->
+    <string name="act_splash_edittext_username">Username</string>
+    <string name="act_splash_edittext_password">Password</string>
+    <string name="act_splash_btn_login">Login</string>
+
+    <!-- About Activity -->
+    <string name="act_about_version">Version</string>
+    <string name="act_about_copyright">&#169; 2015-2016 SchoolMate Inc.</string>
+    <string name="act_about_rights">All rights reserved.</string>
+
+    <!-- Feedback activity -->
+    <string name="act_feedback_email_details">If you have something that doesn\'t fit here then send us an email at <font color="#40A4C4"><a href="helpdesk@classmate.com">helpdesk@classmate.com</a></font>.</string>
+
+    <!-- Blog create activity -->
+    <string name="act_blog_create_edit_text_hint_title">Title</string>
+    <string name="act_blog_create_edit_text_hint_desc">Description</string>
+    <string name="act_blog_create_btn_publish">Publish</string>
+
+    <!-- Task create activity -->
+    <string name="act_task_create_edit_text_hint_title">Title</string>
+    <string name="act_task_create_edit_text_hint_desc">Description</string>
+    <string name="act_task_create_btn_create">Create</string>
+</resources>

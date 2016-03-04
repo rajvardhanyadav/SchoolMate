@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayoutRootBlog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/row_blog_outer_padding"
+    android:paddingRight="@dimen/row_blog_outer_padding">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        card_view:cardBackgroundColor="@android:color/white"
+        card_view:cardCornerRadius="@dimen/card_view_radius"
+        card_view:cardElevation="@dimen/card_view_elevation"
+        card_view:cardUseCompatPadding="true"
+        card_view:contentPadding="@dimen/row_blog_inner_padding">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/imageViewProfilePhoto"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginRight="@dimen/row_blog_in_like_fav_content_left_right_padding"
+                    android:src="@drawable/ic_favorite_black_24dp"
+                    app:civ_border_color="@color/colorDivider"
+                    app:civ_border_width="1dp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textViewUserName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_name"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/textViewUserDesignation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_name"
+                        android:textAppearance="?android:textAppearanceSmall" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="top">
+
+                    <TextView
+                        android:id="@+id/textViewBlogPostDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="@string/app_name" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/divider_height"
+                android:layout_marginBottom="@dimen/row_blog_inner_divider_top_bottom_margin"
+                android:layout_marginTop="@dimen/row_blog_inner_divider_top_bottom_margin"
+                android:background="@color/colorDivider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewBlogTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/row_blog_in_between_content_padding"
+                    android:text="@string/app_name"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/textViewBlogDesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/row_blog_image_between_content_padding"
+                    android:text="@string/app_name" />
+
+                <ImageView
+                    android:id="@+id/imageViewBlogImg"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@color/colorDivider"
+                    android:scaleType="fitXY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/divider_height"
+                android:layout_marginBottom="@dimen/row_blog_inner_divider_top_bottom_margin"
+                android:layout_marginTop="@dimen/row_blog_inner_divider_top_bottom_margin"
+                android:background="@color/colorDivider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/imageViewLike"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/row_blog_in_like_fav_content_top_bottom_padding"
+                        android:layout_marginLeft="@dimen/row_blog_in_like_fav_content_top_bottom_padding"
+                        android:layout_marginRight="@dimen/row_blog_in_like_fav_content_left_right_padding"
+                        android:layout_marginTop="@dimen/row_blog_in_like_fav_content_top_bottom_padding"
+                        android:src="@drawable/ic_thumb_up_black_24dp" />
+
+                    <ImageView
+                        android:id="@+id/imageViewFav"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/row_blog_in_like_fav_content_top_bottom_padding"
+                        android:layout_marginLeft="@dimen/row_blog_in_like_fav_content_top_bottom_padding"
+                        android:layout_marginTop="@dimen/row_blog_in_like_fav_content_top_bottom_padding"
+                        android:src="@drawable/ic_favorite_border_black_24dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textViewViews"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/app_name" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

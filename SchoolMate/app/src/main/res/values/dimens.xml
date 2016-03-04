@@ -1,0 +1,47 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="card_view_radius">1dp</dimen>
+    <dimen name="card_view_elevation">3dp</dimen>
+    <dimen name="row_spinner_margin">12dp</dimen>
+    <dimen name="tab_layout_indicator_height">4dp</dimen>
+
+    <!-- Main activity -->
+    <dimen name="act_main_frame_layout_top_margin">5dp</dimen>
+
+    <!-- Blog row -->
+    <dimen name="row_blog_outer_padding">4dp</dimen>
+    <dimen name="row_blog_inner_padding">8dp</dimen>
+    <dimen name="row_blog_in_between_content_padding">4dp</dimen>
+    <dimen name="row_blog_image_between_content_padding">8dp</dimen>
+    <dimen name="row_blog_in_like_fav_content_top_bottom_padding">4dp</dimen>
+    <dimen name="row_blog_in_like_fav_content_left_right_padding">16dp</dimen>
+    <dimen name="row_blog_inner_divider_top_bottom_margin">8dp</dimen>
+
+    <!-- Blog details activity -->
+    <dimen name="act_blog_details_blog_title_top_margin">16dp</dimen>
+
+    <!-- Blog create activity -->
+    <dimen name="act_blog_create_blog_in_between_margin">16dp</dimen>
+    <dimen name="act_blog_create_blog_publish_btn_height">32dp</dimen>
+    <dimen name="act_blog_create_blog_controls_wrapper_padding">8dp</dimen>
+
+    <!-- Task row -->
+    <dimen name="row_task_outer_padding">4dp</dimen>
+    <dimen name="row_task_inner_padding">8dp</dimen>
+    <dimen name="row_task_subject_wrapper_top_bottom_padding">4dp</dimen>
+    <dimen name="row_task_subject_wrapper_left_right_padding">24dp</dimen>
+    <dimen name="row_task_in_between_vertical_padding">2dp</dimen>
+    <dimen name="row_task_in_between_horiz_padding">8dp</dimen>
+
+    <!-- About activity -->
+    <dimen name="act_about_in_between_margin">8dp</dimen>
+    <dimen name="act_about_logo_margin">16dp</dimen>
+
+    <!-- Feedback activity -->
+    <dimen name="act_feedback_editext_wrapper_height">200dp</dimen>
+    <dimen name="act_feedback_in_between_margin">16dp</dimen>
+    <dimen name="act_feedback_edit_text_wrapper_padding">16dp</dimen>
+</resources>
